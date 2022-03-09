@@ -28,6 +28,8 @@ public class main {
 
         System.out.println("sắp xếp theo điểm tăng dần");
         students.showListStudentByscore(1);
+
+        //demo lưu vào file nhị phân
     	File file = new File("Object.dat");
         ObjectOutputStream oos = null;
     	try {
